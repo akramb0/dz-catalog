@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: dz-catalog
+    runtime: static
+    staticPublishPath: ./
