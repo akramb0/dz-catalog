@@ -1,0 +1,82 @@
+<!doctype html><html lang="ar" dir="ltr"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800;900&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;background:#06010f;font-family:Cairo,sans-serif;color:#fff}
+.abs{position:absolute}
+#bg{inset:0;background:radial-gradient(800px 700px at 50% 45%,rgba(140,55,255,.35),transparent 70%),radial-gradient(600px 500px at 100% 0,rgba(255,80,200,.2),transparent 70%),radial-gradient(600px 500px at 0 100%,rgba(100,60,255,.28),transparent 70%)}
+#gw{inset:0;overflow:hidden}
+#grid{left:-20%;right:-20%;bottom:0;height:640px;background-image:linear-gradient(rgba(190,120,255,.25) 1px,transparent 1px),linear-gradient(90deg,rgba(190,120,255,.25) 1px,transparent 1px);background-size:90px 90px;transform:perspective(600px) rotateX(64deg);transform-origin:bottom;-webkit-mask-image:linear-gradient(to top,#000 10%,transparent 90%)}
+.st{position:absolute;border-radius:50%;background:#f0d0ff;box-shadow:0 0 12px #d58bff}
+.scene{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0}
+#logo{width:760px;filter:drop-shadow(0 0 50px rgba(200,100,255,.7))}
+#ring{left:50%;top:50%;width:900px;height:900px;margin:-450px 0 0 -450px;border-radius:50%;border:4px solid rgba(220,140,255,.7);box-shadow:0 0 80px rgba(190,90,255,.7),inset 0 0 80px rgba(190,90,255,.5)}
+#flash{inset:0;background:radial-gradient(circle at 50% 45%,rgba(255,220,255,.9),transparent 55%);opacity:0}
+h1{font-size:92px;font-weight:900;text-align:center;line-height:1.35}
+.grad{background:linear-gradient(90deg,#ff5fd0,#c06bff,#8b5cff);-webkit-background-clip:text;color:transparent}
+.sub{font-size:44px;font-weight:700;color:#e3c6ff;margin-top:20px;text-align:center}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:70px}
+.card{width:440px;height:300px;border-radius:40px;padding:34px;display:flex;flex-direction:column;justify-content:space-between;
+ background:linear-gradient(160deg,rgba(255,255,255,.17),rgba(255,255,255,.04));border:2px solid rgba(255,255,255,.28);box-shadow:0 0 50px rgba(170,80,255,.4)}
+.card .ic{font-size:86px;line-height:1}.card b{font-size:44px;font-weight:900}.card span{font-size:28px;color:#dcc4ff;font-weight:600}
+.feat{width:860px;display:flex;align-items:center;gap:36px;padding:34px 44px;margin:20px 0;border-radius:40px;
+ background:linear-gradient(90deg,rgba(255,95,208,.22),rgba(139,92,255,.12));border:2px solid rgba(230,160,255,.35)}
+.feat .ic{width:130px;height:130px;flex:none;border-radius:34px;display:grid;place-items:center;font-size:70px;background:linear-gradient(135deg,#ff4fc8,#7b3dff);box-shadow:0 0 40px rgba(255,79,200,.5)}
+.feat b{font-size:54px;font-weight:900;display:block}.feat span{font-size:32px;color:#dcc4ff}
+#s5 img{width:560px;filter:drop-shadow(0 0 40px rgba(200,100,255,.7))}
+.cta{margin-top:50px;padding:34px 70px;border-radius:60px;font-size:56px;font-weight:900;background:linear-gradient(90deg,#ff4fc8,#9b3dff 60%,#6a2cff);box-shadow:0 0 70px rgba(220,80,255,.65),inset 0 3px 0 rgba(255,255,255,.4)}
+.small{margin-top:36px;font-size:38px;color:#e3c6ff;font-weight:700}
+#bar{left:0;bottom:0;height:10px;background:linear-gradient(90deg,#ff4fc8,#8b5cff)}
+</style></head><body>
+<div id="bg" class="abs"></div><div id="gw" class="abs"><div id="grid" class="abs"></div></div><div id="stars"></div>
+<div id="ring" class="abs"></div>
+<div dir="rtl" class="scene" id="s1"><img id="logo" src="../zpro/zpro-logo-3d-transparent.png"></div>
+<div dir="rtl" class="scene" id="s2"><h1>كل اشتراكاتك الرقمية<br><span class="grad">في بلاصة وحدة</span></h1><div class="sub">ساهلة، سريعة، ومضمونة ✨</div></div>
+<div dir="rtl" class="scene" id="s3"><h1 style="font-size:78px">واش نوفرولك؟</h1><div class="cards">
+ <div class="card"><div class="ic">🎬</div><div><b>أفلام ومسلسلات</b><br><span>منصات المشاهدة</span></div></div>
+ <div class="card"><div class="ic">📺</div><div><b>IPTV</b><br><span>قنوات بجودة 4K</span></div></div>
+ <div class="card"><div class="ic">🎮</div><div><b>ألعاب</b><br><span>اشتراكات وألعاب PC</span></div></div>
+ <div class="card"><div class="ic">🤖</div><div><b>ذكاء اصطناعي</b><br><span>أدوات الإبداع والعمل</span></div></div>
+</div></div>
+<div dir="rtl" class="scene" id="s4"><h1 style="font-size:78px;margin-bottom:40px">علاش <span class="grad">Z PRO</span>؟</h1>
+ <div class="feat"><div class="ic">⚡</div><div><b>تسليم فوري</b><span>تفعيل في دقائق</span></div></div>
+ <div class="feat"><div class="ic">💬</div><div><b>دعم سريع</b><span>نجاوبوك في أي وقت</span></div></div>
+ <div class="feat"><div class="ic">🏷️</div><div><b>أسعار تنافسية</b><span>أحسن قيمة مقابل سعرك</span></div></div>
+</div>
+<div dir="rtl" class="scene" id="s5"><img src="../zpro/zpro-logo-3d-transparent.png"><div class="cta">اطلب الآن عبر واتساب</div><div class="small">تابع الصفحة باش ما يفوتك حتى عرض 🔔</div></div>
+<div id="flash" class="abs"></div><div id="bar" class="abs"></div>
+<script>
+const W=1080,H=1920,T=16;let seed=11;const R=()=>(seed=(seed*9301+49297)%233280)/233280;
+const stars=[];for(let i=0;i<90;i++){const e=document.createElement('i');e.className='st';const z=1.5+R()*5;e.style.width=e.style.height=z+'px';
+ stars.push({e,x:R()*W,y:R()*H,sp:20+R()*60,ph:R()*6});document.getElementById('stars').appendChild(e)}
+const cl=v=>Math.max(0,Math.min(1,v)),eo=t=>1-Math.pow(1-t,3),eb=t=>{const c=1.7;return 1+(c+1)*Math.pow(t-1,3)+c*Math.pow(t-1,2)};
+const $=id=>document.getElementById(id);
+// scene windows [in, out]
+const S={s1:[0,3.2],s2:[3.2,6.2],s3:[6.2,10.2],s4:[10.2,13.4],s5:[13.4,16.5]};
+function vis(id,t){const[a,b]=S[id];const i=cl((t-a)/.45),o=cl((b-t)/.4);return{i,o,v:Math.min(i,o),p:t-a}}
+window.render=function(t){
+ stars.forEach(s=>{s.e.style.left=s.x+'px';s.e.style.top=((s.y-s.sp*t)%H+H)%H+'px';s.e.style.opacity=.35+.65*Math.abs(Math.sin(t*1.5+s.ph))});
+ $('grid').style.backgroundPosition=`0 ${t*60}px`;
+ // s1 logo reveal
+ let a=vis('s1',t);const ls=eb(cl(t/1.2));$('s1').style.opacity=a.o*cl(t/.3);
+ $('logo').style.transform=`scale(${.4+.6*ls}) rotateY(${(1-eo(cl(t/1.4)))*70}deg)`;
+ $('flash').style.opacity=t<1.4?Math.max(0,1-Math.abs(t-1.0)/.4)*.8:0;
+ const rs=t<3.2?eo(cl((t-.6)/1)):1;$('ring').style.transform=`scale(${.3+.9*rs}) rotate(${t*20}deg)`;
+ $('ring').style.opacity=(t<3.2?cl((t-.6)/.4):.35)*(t>15.5?cl((16-t)/.5):1);
+ // s2
+ a=vis('s2',t);$('s2').style.opacity=a.v;$('s2').style.transform=`translateY(${(1-eo(a.i))*80}px) scale(${1+.03*a.p})`;
+ // s3 cards stagger
+ a=vis('s3',t);$('s3').style.opacity=a.v;
+ document.querySelectorAll('#s3 .card').forEach((c,k)=>{const q=eb(cl((a.p-.2-k*.22)/.5));c.style.transform=`translateY(${(1-q)*160}px) scale(${.7+.3*q})`;c.style.opacity=cl((a.p-.2-k*.22)/.3)});
+ // s4 features slide
+ a=vis('s4',t);$('s4').style.opacity=a.v;
+ document.querySelectorAll('#s4 .feat').forEach((c,k)=>{const q=eo(cl((a.p-.2-k*.3)/.5));c.style.transform=`translateX(${(1-q)*-700}px)`;c.style.opacity=q});
+ // s5
+ a=vis('s5',t);$('s5').style.opacity=cl((t-S.s5[0])/.45);
+ const q=eb(cl((a.p)/.8));$('s5').querySelector('img').style.transform=`scale(${.6+.4*q})`;
+ const pulse=1+.04*Math.sin(Math.max(0,a.p-1)*6);const cq=eb(cl((a.p-.5)/.5));
+ $('s5').querySelector('.cta').style.transform=`scale(${cq*pulse})`;$('s5').querySelector('.small').style.opacity=cl((a.p-1)/.4);
+ $('bar').style.width=(t/T*100)+'%';
+ document.body.style.opacity=t>15.6?cl((16-t)/.4):1;
+}
+render(0);
+</script></body></html>
