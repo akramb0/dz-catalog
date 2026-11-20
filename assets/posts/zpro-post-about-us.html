@@ -9,15 +9,15 @@ body{background:#06010f;font-family:Cairo,sans-serif;color:#fff;position:relativ
 .wrap{position:absolute;inset:0;direction:rtl;display:flex;flex-direction:column;align-items:center;padding:56px 56px 0}
 .logo{width:210px;filter:drop-shadow(0 0 30px rgba(200,100,255,.6))}
 .pill{margin-top:6px;font-weight:800;font-size:28px;padding:8px 30px;border-radius:40px;border:2px solid rgba(230,160,255,.5);color:#f0d6ff;background:rgba(170,80,255,.15)}
-h1{margin-top:16px;font-size:56px;font-weight:900;line-height:1.25;text-align:center}
+h1{margin-top:16px;font-size:64px;font-weight:900;line-height:1.25;text-align:center}
 .grad{background:linear-gradient(90deg,#ff5fd0,#c06bff,#8b5cff);-webkit-background-clip:text;color:transparent}
 .lead{margin-top:12px;font-size:29px;font-weight:700;color:#e3c6ff;text-align:center;line-height:1.6;max-width:900px}
-.prods{margin-top:36px;display:flex;gap:26px;width:100%;justify-content:center}
-.p{width:305px;border-radius:34px;padding:30px 22px 26px;text-align:center;background:linear-gradient(160deg,rgba(255,255,255,.16),rgba(255,255,255,.04));border:2px solid rgba(255,255,255,.26);box-shadow:0 0 45px rgba(170,80,255,.35)}
-.ic{width:110px;height:110px;margin:0 auto 16px;border-radius:30px;display:grid;place-items:center;font-size:58px;box-shadow:0 0 35px rgba(255,79,200,.45)}
+.prods{margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:22px;width:100%}
+.p{display:flex;align-items:center;gap:20px;border-radius:30px;padding:24px 24px;text-align:right;background:linear-gradient(160deg,rgba(255,255,255,.16),rgba(255,255,255,.04));border:2px solid rgba(255,255,255,.26);box-shadow:0 0 45px rgba(170,80,255,.35)}
+.ic{flex:none;width:100px;height:100px;border-radius:28px;display:grid;place-items:center;font-size:58px;box-shadow:0 0 35px rgba(255,79,200,.45)}
 .i1{background:linear-gradient(135deg,#ff4fc8,#9b3dff)}.i2{background:linear-gradient(135deg,#b04bff,#5a2cff)}.i3{background:linear-gradient(135deg,#8b5cff,#ff5fd0)}
-.p b{display:block;font-family:Orbitron,sans-serif;font-size:29px;white-space:nowrap;direction:ltr}.p span{display:block;margin-top:6px;font-size:23px;color:#dcc4ff;font-weight:700;line-height:1.45}
-.feats{margin-top:34px;display:flex;gap:18px}
+.p b{display:block;font-family:Orbitron,sans-serif;font-size:28px;white-space:nowrap;direction:ltr;text-align:right}.p b.ar{font-family:Cairo;font-size:32px;font-weight:900;direction:rtl}.i4{background:linear-gradient(135deg,#6a2cff,#ff4fc8)}.more{border-style:dashed;border-color:rgba(255,150,230,.55)}.p span{display:block;margin-top:4px;font-size:22px;color:#dcc4ff;font-weight:700;line-height:1.45}
+.feats{margin-top:40px;display:flex;gap:18px}
 .f{font-size:26px;font-weight:800;padding:12px 24px;border-radius:30px;background:rgba(255,255,255,.07);border:1px solid rgba(220,160,255,.3)}
 .cta{position:absolute;left:56px;right:56px;bottom:50px;direction:rtl;display:flex;justify-content:space-between;align-items:center;padding:20px 34px;border-radius:30px;background:linear-gradient(90deg,#ff4fc8,#9b3dff 60%,#6a2cff);box-shadow:0 0 50px rgba(220,80,255,.55),inset 0 2px 0 rgba(255,255,255,.4)}
 .cta b{font-size:36px;font-weight:900}.cta span{font-size:24px;font-weight:700}
@@ -27,12 +27,13 @@ h1{margin-top:16px;font-size:56px;font-weight:900;line-height:1.25;text-align:ce
 <div class="wrap">
  <img class="logo" src="../zpro/zpro-logo-3d-transparent.png">
  <div class="pill">من نحن</div>
- <h1>أدوات <span class="grad">التصميم والذكاء الاصطناعي</span><br>بين يديك</h1>
- <div class="lead">في Zyvelle Pro نوفرولك اشتراكات أقوى أدوات التصميم والـ AI،<br>باش تخدم أسرع وتبدع أحسن… بلا تعقيد 🇩🇿</div>
+ <h1>أدوات <span class="grad">رقمية</span> تخدم طموحك</h1>
+ <div class="lead">في Zyvelle Pro نوفرولك اشتراكات في الذكاء الاصطناعي، التصميم<br>ومجالات أخرى… باش تخدم أسرع وتبدع أحسن 🇩🇿</div>
  <div class="prods">
-  <div class="p"><div class="ic i1">🎨</div><b>Canva Pro</b><span>تصاميم احترافية<br>لمنشوراتك ومشروعك</span></div>
-  <div class="p"><div class="ic i2">🎬</div><b>CapCut Pro</b><span>مونتاج فيديوهات<br><bdi>Reels</bdi> و <bdi>TikTok</bdi></span></div>
-  <div class="p"><div class="ic i3">🤖</div><b>ChatGPT Plus</b><span>مساعدك الذكي<br>للكتابة والأفكار</span></div>
+  <div class="p"><div class="ic i3">🤖</div><div><b>ChatGPT Plus</b><span>مساعدك الذكي في كل خدمة</span></div></div>
+  <div class="p"><div class="ic i1">🎨</div><div><b>Canva Pro</b><span>تصاميم احترافية في دقائق</span></div></div>
+  <div class="p"><div class="ic i2">🎬</div><div><b>CapCut Pro</b><span>مونتاج فيديوهات باحترافية</span></div></div>
+  <div class="p more"><div class="ic i4">✨</div><div><b class="ar">والمزيد…</b><span>أدوات رقمية في مجالات أخرى</span></div></div>
  </div>
  <div class="feats"><div class="f">⚡ تفعيل فوري</div><div class="f">💬 دعم سريع</div><div class="f">🏷️ أسعار تنافسية</div></div>
 </div>
